@@ -150,6 +150,11 @@ Build the Docker image locally:
 docker build -f Dockerfile.browser -t mqtt-explorer:local .
 ```
 
+```bash
+docker build -f Dockerfile.browser -t ruseler/mqtt-explorer:local .
+```
+
+
 Run the locally built image:
 
 ```bash
